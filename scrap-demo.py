@@ -13,7 +13,7 @@ def bsoup_demo():
 
     # Parsing the HTML
     soup = BeautifulSoup(r.content, 'html.parser')
-    print(soup.prettify)
+    print(soup.prettify())
 
-def main():
-    bsoup_demo()
+
+bsoup_demo()
